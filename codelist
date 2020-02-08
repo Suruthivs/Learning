@@ -1,0 +1,21 @@
+class call_attend:
+	def support_person():
+		print("How can I help you")
+	def manager():
+		print("How can I help you")
+	def director():
+		print("How can I help you")
+attend=call_attend()
+
+a=input("Enter if support person is free or busy:")
+a=input("Enter if support person is free or busy:")
+b=input("Enter if support manager is free or busy:")
+c=input("Enter if director is free or busy")
+if(a=="free"):
+	attend.support_person()
+elif(b=="free"):
+        attend.manager()
+elif(c=="free"):
+        attend.director()
+else:
+    print("Please try again later")
